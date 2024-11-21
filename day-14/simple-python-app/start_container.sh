@@ -2,7 +2,6 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
-
+docker pull abhishekf5/simplae-pyhton-flask-app
 # Run the Docker image as a container
-echo
+run -d -p 5000:5000 nareshf5/simple-pyhton-flask-app
